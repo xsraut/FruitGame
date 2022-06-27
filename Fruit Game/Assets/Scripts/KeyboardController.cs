@@ -22,20 +22,32 @@ public class KeyboardController : MonoBehaviour
 
     public Transform dummyTransform;
 
+    int screenSizeH;
+    int screenSizeV;
+    Camera cam;
+    [SerializeField]
+    Vector3 cursorSizeOffset;
+
+
     // Start is called before the first frame update
     void Start()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
+
+        screenSizeH = Screen.width;
+        screenSizeV = Screen.height;
+
+        cam = Camera.main;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) && cam.WorldToScreenPoint(transform.position).x > (0 + cursorSizeOffset.x))
         {
             currPos.x = -1;
         }
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D) && cam.WorldToScreenPoint(transform.position).x < (screenSizeH-cursorSizeOffset.y))
         {
             currPos.x = 1;
         }
@@ -44,11 +56,11 @@ public class KeyboardController : MonoBehaviour
             currPos.x = 0;
         }
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) && cam.WorldToScreenPoint(transform.position).y <(screenSizeV-cursorSizeOffset.y))
         {
             currPos.y = 1;
         }
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.S) && cam.WorldToScreenPoint(transform.position).y > (0+cursorSizeOffset.y))
         {
             currPos.y = -1;
         }
@@ -95,6 +107,7 @@ public class KeyboardController : MonoBehaviour
         }
 
         Debug.Log(plucked); 
+
     }
 
 

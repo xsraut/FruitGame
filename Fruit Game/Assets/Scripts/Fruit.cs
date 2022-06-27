@@ -7,6 +7,7 @@ public class Fruit : MonoBehaviour
     // public Transform dummyTransform;
 
 
+    public bool grabable = true;
     private bool collided = false; 
     // Start is called before the first frame update
     void Start()
@@ -62,7 +63,7 @@ public class Fruit : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        GetComponent<Animator>().SetBool("appleShake", true);
+        GetComponent<Animator>().SetBool("appleShake", false);
     }
 
 }

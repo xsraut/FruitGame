@@ -577,6 +577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31fd6a961148c7f44bb51349cec0c2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabable: 1
 --- !u!95 &96036265
 Animator:
   serializedVersion: 3
@@ -709,6 +710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31fd6a961148c7f44bb51349cec0c2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabable: 1
 --- !u!95 &96306183
 Animator:
   serializedVersion: 3
@@ -1434,6 +1436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31fd6a961148c7f44bb51349cec0c2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabable: 1
 --- !u!95 &436789493
 Animator:
   serializedVersion: 3
@@ -1698,6 +1701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31fd6a961148c7f44bb51349cec0c2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabable: 1
 --- !u!95 &500689711
 Animator:
   serializedVersion: 3
@@ -2779,6 +2783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31fd6a961148c7f44bb51349cec0c2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabable: 1
 --- !u!95 &730384442
 Animator:
   serializedVersion: 3
@@ -2911,6 +2916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31fd6a961148c7f44bb51349cec0c2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabable: 1
 --- !u!95 &736044663
 Animator:
   serializedVersion: 3
@@ -3467,6 +3473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31fd6a961148c7f44bb51349cec0c2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabable: 1
 --- !u!95 &863950624
 Animator:
   serializedVersion: 3
@@ -3821,6 +3828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31fd6a961148c7f44bb51349cec0c2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabable: 1
 --- !u!212 &1003928800
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3983,6 +3991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31fd6a961148c7f44bb51349cec0c2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabable: 1
 --- !u!212 &1020665676
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4289,6 +4298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31fd6a961148c7f44bb51349cec0c2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabable: 1
 --- !u!95 &1117849991
 Animator:
   serializedVersion: 3
@@ -6101,6 +6111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31fd6a961148c7f44bb51349cec0c2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabable: 1
 --- !u!95 &1762001826
 Animator:
   serializedVersion: 3
@@ -6233,6 +6244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31fd6a961148c7f44bb51349cec0c2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabable: 1
 --- !u!95 &1767076953
 Animator:
   serializedVersion: 3
@@ -6394,6 +6406,7 @@ MonoBehaviour:
   HandSprite: {fileID: 21300000, guid: cc9424a658b25694bb7433e1f9bb30ca, type: 3}
   GrabSprite: {fileID: 21300000, guid: 75308a5b0eadec04d8397673e83e5b01, type: 3}
   dummyTransform: {fileID: 1244664781}
+  cursorSizeOffset: {x: 20, y: 50, z: 0}
 --- !u!212 &1812786442
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6552,6 +6565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31fd6a961148c7f44bb51349cec0c2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabable: 1
 --- !u!95 &1829606860
 Animator:
   serializedVersion: 3
@@ -6684,6 +6698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31fd6a961148c7f44bb51349cec0c2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabable: 1
 --- !u!95 &1834881967
 Animator:
   serializedVersion: 3
